@@ -7,7 +7,7 @@ password="d4a1d225d0abda9549d8"
 remote_dir="/summative/0923-2023S"
 
 # Define variable for local directory to back up
-local_dir="negpod_id-q1"
+local_dir="negpod_19-q1"
 
 # Use scp to copy the local directory to the remote server
 scp -r "$local_dir" "$username@$host:$remote_dir"
